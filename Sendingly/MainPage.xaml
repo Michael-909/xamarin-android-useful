@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Sendingly.MainPage">
+
+    <StackLayout BackgroundColor="#77DAED"
+                 HorizontalOptions="CenterAndExpand"
+                 VerticalOptions="StartAndExpand"
+                 x:Name="contentBox"
+                 >
+        <WebView HorizontalOptions="CenterAndExpand"
+                 VerticalOptions="StartAndExpand"
+                 Source="https://sendingly.com/welcome/"
+                 x:Name="mwebView"
+                 >
+        </WebView>
+    </StackLayout>
+
+</ContentPage>
